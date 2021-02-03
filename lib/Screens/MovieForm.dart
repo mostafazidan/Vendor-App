@@ -263,8 +263,9 @@ class _MovieFormState extends State<MovieForm> {
       movie.title=Title.text;
       movie.movieTime=TimeDate.text;
       movie.times=_times;
-      movie.seats = [{"id": 1, "isReserved": true, "user": ""},
-        {"id": 2, "isReserved": true, "user": ""},
+      movie.seats = [
+        {"id": 1, "isReserved": false, "user": ""},
+        {"id": 2, "isReserved": false, "user": ""},
         {"id": 3, "isReserved": false, "user": ""},
         {"id": 4, "isReserved": false, "user": ""},
         {"id": 5, "isReserved": false, "user": ""},
